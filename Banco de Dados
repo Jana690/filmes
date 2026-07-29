@@ -1,0 +1,9 @@
+CREATE TABLE filmes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    genero VARCHAR(50) NOT NULL,
+    ano YEAR NOT NULL,
+    avaliacao DECIMAL(2,1),
+    imagem VARCHAR(255),
+    sinopse TEXT
+);
